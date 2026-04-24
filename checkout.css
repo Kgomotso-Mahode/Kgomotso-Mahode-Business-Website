@@ -6,7 +6,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background: radial-gradient(circle at top, #020617, #0f172a);
+  background: radial-gradient(circle at top, #000000, #000000);
   color: #e2e8f0;
   padding: 20px;
 }
@@ -58,7 +58,7 @@ p {
   inset: 0;
   background: radial-gradient(
     circle at 20% 20%,
-    rgba(14, 165, 233, 0.15),
+    rgba(42, 42, 43, 0.15),
     transparent 50%
   );
   pointer-events: none;
@@ -66,7 +66,7 @@ p {
 
 .summary-card h2,
 .payment-card h2 {
-  color: #38bdf8;
+  color: #363636;
   margin-bottom: 20px;
 }
 
@@ -76,7 +76,7 @@ p {
   gap: 12px;
 
   padding: 10px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(56, 55, 55, 0.08);
 }
 
 .checkout-item img {
@@ -93,7 +93,7 @@ p {
 
 .checkout-item p {
   font-size: 0.85rem;
-  color: #38bdf8;
+  color: #020202;
   margin: 0;
 }
 
@@ -112,7 +112,7 @@ p {
   margin-top: 20px;
   padding-top: 15px;
 
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(83, 80, 80, 0.1);
 
   font-size: 1.2rem;
   font-weight: bold;
@@ -134,7 +134,7 @@ input {
   padding: 12px;
   border-radius: 12px;
 
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(29, 29, 29, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
 
   color: #fff;
@@ -144,8 +144,8 @@ input {
 }
 
 input:focus {
-  border-color: #38bdf8;
-  box-shadow: 0 0 12px rgba(56, 189, 248, 0.3);
+  border-color: #000000;
+  box-shadow: 0 0 12px rgba(62, 63, 63, 0.3);
 }
 
 .row {
@@ -170,14 +170,14 @@ input:focus {
 
   color: #e2e8f0;
 
-  background: rgba(56, 189, 248, 0.08);
+  background: rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(12px);
 
-  border: 1px solid rgba(56, 189, 248, 0.25);
+  border: 1px solid rgba(35, 36, 36, 0.25);
 
   box-shadow:
     0 10px 30px rgba(0, 0, 0, 0.4),
-    inset 0 0 15px rgba(56, 189, 248, 0.08);
+    inset 0 0 15px rgba(36, 36, 36, 0.08);
 
   cursor: pointer;
   transition: all 0.3s ease;
@@ -185,11 +185,11 @@ input:focus {
 
 .pay-btn:hover {
   transform: translateY(-2px);
-  border-color: rgba(56, 189, 248, 0.6);
+  border-color: rgba(36, 36, 36, 0.6);
 
   box-shadow:
     0 15px 40px rgba(0, 0, 0, 0.5),
-    0 0 25px rgba(56, 189, 248, 0.25);
+    0 0 25px rgba(22, 22, 22, 0.25);
 }
 
 .pay-btn:active {
