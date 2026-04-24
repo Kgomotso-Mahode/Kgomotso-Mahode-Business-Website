@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <script type="module" src="app.js" defer></script>
+
+    <title>Snag It Sign-up/Login</title>
+  </head>
+
+  <body>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
+      import { getFirestore } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
+      import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js";
+    </script>
+
+    <section id="Login">
+      <div class="logo-area">
+        <span class="material-symbols-outlined">shopping_bag_speed</span>
+      </div>
+
+      <h1>Welcome to Snag It</h1>
+
+      <form id="loginForm">
+        <h2>Sign in or create account</h2>
+
+        <input id="email" placeholder="Email" />
+        <input id="password" type="password" placeholder="Password" />
+
+        <button type="button" onclick="registerUser()">Register</button>
+        <button type="button" onclick="loginUser()">Login</button>
+      </form>
+    </section>
+  </body>
+</html>

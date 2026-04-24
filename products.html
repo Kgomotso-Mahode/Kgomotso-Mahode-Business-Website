@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+
+    <link rel="stylesheet" href="products.css" />
+
+    <title>Snag It Store</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo-group">
+        <span class="material-symbols-outlined logo-icon">
+          shopping_bag_speed
+        </span>
+        <h2 class="logo">Snag It</h2>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#fashion">Fashion</a></li>
+        <li><a href="#electronics">Electronics</a></li>
+        <li><a href="#beauty">Beauty</a></li>
+      </ul>
+    </nav>
+
+    <section class="banner">
+      <div class="banner-image">
+        <img
+          src="https://www.louisvuitton.com/images/is/image/lv/WOMEN_BC_SPRING-SUMMER26_07_FEB26_DII.jpg?wid=1440"
+        />
+      </div>
+
+      <div class="banner-overlay"></div>
+
+      <div class="banner-content">
+        <h1>New Releases</h1>
+        <p>
+          Discover amazing products from top brands like Apple, Samsung, The
+          Ordinary & Cotton On
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="category-title">Fashion</h2>
+      <div id="fashion" class="product-grid"></div>
+    </section>
+
+    <section>
+      <h2 class="category-title">Electronics</h2>
+      <div id="electronics" class="product-grid"></div>
+    </section>
+
+    <section>
+      <h2 class="category-title">Beauty</h2>
+      <div id="beauty" class="product-grid"></div>
+    </section>
+
+    <div class="cta-btn-wrapper">
+      <a href="cart.html" class="cta-btn">Go to Cart</a>
+    </div>
+
+    <script type="module" src="./products.js"></script>
+  </body>
+</html>
